@@ -17,6 +17,7 @@ def download_youtube_video(video_url, output_path):
     except Exception as e:
         print(f'An error occurred: {e}')
 
+# Example
 
 video_url = 'https://www.youtube.com/watch?v=DF3XjEhJ40Y&list=RDMM&index=2'
 output_path = 'Downloads/'
